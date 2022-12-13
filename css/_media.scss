@@ -1,0 +1,74 @@
+@media (max-width: 1300px) {
+    header .img-logo img {
+        margin-top: -100px;
+    }
+    nav img {
+        max-width: 100%;
+    }
+    header h1 {
+        font-size: 80px;
+    }
+    .Production .boxing p{
+    width: 100%;
+    }
+    .parg-about{
+        height: 800px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header .img-logo img {
+        margin-top: -100px;
+    }
+    nav img {
+        max-width: 100%;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    .Production .boxing p{
+        width: 100%;
+    }
+    .parg-about{
+        height: 800px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .img-logo img {
+        margin-top: -100px;
+    }
+    nav img {
+        max-width: 100%;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    .parg-about{
+        height: 600px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    header .img-logo img {
+        margin-top: 0px;
+    }
+    nav img {
+        max-width: 85%;
+    }
+    .parg-about{
+        height: 500px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    header .img-logo img {
+        margin-top: 0px;
+    }
+    nav img {
+        max-width: 25%;
+    }
+    .parg-about{
+        height: 450px;
+    }
+}
