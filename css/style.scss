@@ -146,6 +146,9 @@ main{
     padding: 5px;
     text-decoration: none;
     color: #72c349;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
 .Production{
@@ -487,3 +490,5 @@ body {
   }
 }
 
+
+@import 'media'

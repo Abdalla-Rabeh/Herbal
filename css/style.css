@@ -182,6 +182,16 @@ main .item h6 a {
   padding: 5px;
   text-decoration: none;
   color: #72c349;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Production {
@@ -721,6 +731,81 @@ body {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
     width: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  header .img-logo img {
+    margin-top: -100px;
+  }
+  nav img {
+    max-width: 100%;
+  }
+  header h1 {
+    font-size: 80px;
+  }
+  .Production .boxing p {
+    width: 100%;
+  }
+  .parg-about {
+    height: 800px !important;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+  header .img-logo img {
+    margin-top: -100px;
+  }
+  nav img {
+    max-width: 100%;
+  }
+  header h1 {
+    font-size: 35px;
+  }
+  .Production .boxing p {
+    width: 100%;
+  }
+  .parg-about {
+    height: 800px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+  header .img-logo img {
+    margin-top: -100px;
+  }
+  nav img {
+    max-width: 100%;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  .parg-about {
+    height: 500px !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  header .img-logo img {
+    margin-top: 0px;
+  }
+  nav img {
+    max-width: 85%;
+  }
+  .parg-about {
+    height: 430px !important;
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+  header .img-logo img {
+    margin-top: 0px;
+  }
+  nav img {
+    max-width: 25%;
+  }
+  .parg-about {
+    height: 400px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

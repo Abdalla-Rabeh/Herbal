@@ -12,7 +12,7 @@
     width: 100%;
     }
     .parg-about{
-        height: 800px;
+        height: 800px !important;
     }
 }
 
@@ -30,7 +30,7 @@
         width: 100%;
     }
     .parg-about{
-        height: 800px;
+        height: 800px !important;
     }
 }
 
@@ -45,7 +45,7 @@
         font-size: 40px;
     }
     .parg-about{
-        height: 600px;
+        height: 500px !important;
     }
 }
 
@@ -57,7 +57,7 @@
         max-width: 85%;
     }
     .parg-about{
-        height: 500px;
+        height: 430px !important;
     }
 }
 
@@ -69,6 +69,6 @@
         max-width: 25%;
     }
     .parg-about{
-        height: 450px;
+        height: 400px !important;
     }
 }

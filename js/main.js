@@ -22,5 +22,5 @@ $('nav .dropdown').hover(function(){
 });
 
 $(document).ready(function () {
-  $(".loader").fadeOut(3000);
+  $(".loader").fadeOut(2000);
 });
