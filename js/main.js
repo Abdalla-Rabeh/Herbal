@@ -20,3 +20,7 @@ $('nav .dropdown').hover(function(){
     $this.find('> a').attr('aria-expanded', false);
     $this.find('.dropdown-menu').removeClass('show');
 });
+
+$(document).ready(function () {
+  $(".loader").fadeOut(3000);
+});
