@@ -144,6 +144,12 @@ main .box-item img {
 
 main .box-item h3 {
   padding: 10px;
+  font-weight: bold;
+}
+
+main .box-item p {
+  font-size: 22px;
+  text-align: left;
 }
 
 main .boxs {
