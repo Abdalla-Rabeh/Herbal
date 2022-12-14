@@ -194,6 +194,20 @@ main .item h6 a {
           align-items: center;
 }
 
+main .carousel-item img {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+main .carousel-control-prev, main .carousel-control-next {
+  background-color: #000;
+}
+
+main .carousel-control-next-icon, main .carousel-control-prev-icon {
+  height: 10rem !important;
+}
+
 .Production {
   background-color: #f1f1f1;
 }
@@ -502,10 +516,6 @@ footer .foot .link ul a {
 
 .about:hover .social.linkedin .icon:hover {
   background-color: #0077b5;
-}
-
-body {
-  margin: 0;
 }
 
 .content {
