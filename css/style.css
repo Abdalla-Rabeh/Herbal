@@ -20,6 +20,11 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
+img:hover {
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+}
+
 nav {
   background-color: #f3f4f7;
 }
@@ -48,6 +53,10 @@ nav li {
 
 nav a {
   color: #537b35 !important;
+}
+
+nav a:hover {
+  color: #daf66e !important;
 }
 
 header .carousel-item img {
@@ -137,7 +146,7 @@ main .louayt {
 
 main .box-item {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   height: 100%;
 }
@@ -759,16 +768,13 @@ footer .foot .link ul a {
     margin-top: -100px;
   }
   nav img {
-    max-width: 100%;
+    max-width: 150%;
   }
   header h1 {
     font-size: 80px;
   }
   .Production .boxing p {
     width: 100%;
-  }
-  .parg-about {
-    height: 900px !important;
   }
 }
 
@@ -777,16 +783,13 @@ footer .foot .link ul a {
     margin-top: -100px;
   }
   nav img {
-    max-width: 100%;
+    max-width: 150%;
   }
   header h1 {
     font-size: 35px;
   }
   .Production .boxing p {
     width: 100%;
-  }
-  .parg-about {
-    height: 900px !important;
   }
 }
 
@@ -795,7 +798,7 @@ footer .foot .link ul a {
     margin-top: -100px;
   }
   nav img {
-    max-width: 100%;
+    max-width: 150%;
   }
   header h1 {
     font-size: 40px;
@@ -812,20 +815,11 @@ footer .foot .link ul a {
   nav img {
     max-width: 85%;
   }
-  .parg-about {
-    height: 430px !important;
-  }
 }
 
 @media (min-width: 1181px) and (max-width: 1300px) {
   header .img-logo img {
     margin-top: 0px;
-  }
-  nav img {
-    max-width: 25%;
-  }
-  .parg-about {
-    height: 400px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
