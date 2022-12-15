@@ -29,7 +29,7 @@ nav .navbar-brand {
 }
 
 nav img {
-  max-width: 35%;
+  max-width: 100%;
 }
 
 nav .navbar-nav .dropdown-menu:hover {
@@ -103,9 +103,13 @@ header .product img {
 }
 
 .About .parg-about {
-  line-height: 3;
+  line-height: 4;
   font-size: 20px;
-  height: 420px;
+  -webkit-box-shadow: 20px 20px 1px #537b35;
+          box-shadow: 20px 20px 1px #537b35;
+  height: 450px;
+  padding: 20px;
+  border: 38px solid #fff;
 }
 
 main {
@@ -764,7 +768,7 @@ footer .foot .link ul a {
     width: 100%;
   }
   .parg-about {
-    height: 800px !important;
+    height: 900px !important;
   }
 }
 
@@ -782,7 +786,7 @@ footer .foot .link ul a {
     width: 100%;
   }
   .parg-about {
-    height: 800px !important;
+    height: 900px !important;
   }
 }
 

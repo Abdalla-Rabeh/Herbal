@@ -21,7 +21,7 @@ nav{
     width: 22%;
   }
   img{
-    max-width: 35%;
+    max-width: 100%;
   }
   .navbar-nav .dropdown-menu:hover{
     display: block;
@@ -82,9 +82,12 @@ header{
     height: 100%;
   }
   .parg-about{
-    line-height: 3;
+    line-height: 4;
     font-size: 20px;
-    height: 420px;
+    box-shadow: 20px 20px 1px #537b35;
+    height: 450px;
+    padding: 20px;
+    border: 38px solid #fff;
   }
 }
 main{
