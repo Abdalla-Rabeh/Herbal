@@ -151,9 +151,13 @@ main .louayt {
 
 main .box-item {
   background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid #C52A41;
   padding: 20px;
   text-align: center;
   height: 100%;
+  -webkit-box-shadow: 1px -4px 12px 0;
+          box-shadow: 1px -4px 12px 0;
 }
 
 main .box-item img {
@@ -768,7 +772,7 @@ footer .foot .link ul a {
   }
 }
 
-.Loader {
+.Loader, .Loaders {
   position: fixed;
   top: 0;
   left: 0;
@@ -796,7 +800,7 @@ footer .foot .link ul a {
   transition: opacity 0.75s, visibility 0.75s;
 }
 
-.Loader .cubeWrap {
+.Loader .cubeWrap, .Loaders .cubeWrap {
   -webkit-perspective: 800px;
           perspective: 800px;
   width: 300px;
@@ -806,7 +810,7 @@ footer .foot .link ul a {
   animation: bouncy 2s ease forwards;
 }
 
-.Loader .cubeWrap .cube {
+.Loader .cubeWrap .cube, .Loaders .cubeWrap .cube {
   margin: 8em auto;
   width: 6em;
   height: 6em;
@@ -821,7 +825,7 @@ footer .foot .link ul a {
           transform: rotateX(-50deg) rotateY(405deg);
 }
 
-.Loader .cubeWrap div {
+.Loader .cubeWrap div, .Loaders .cubeWrap div {
   position: absolute;
   width: 6em;
   height: 6em;
@@ -832,7 +836,10 @@ footer .foot .link ul a {
 .Loader .faces1::before,
 .Loader .faces1::after,
 .Loader .faces2::before,
-.Loader .faces2::after {
+.Loader .faces2::after, .Loaders .faces1::before,
+.Loaders .faces1::after,
+.Loaders .faces2::before,
+.Loaders .faces2::after {
   position: absolute;
   content: "";
   display: block;
@@ -843,7 +850,8 @@ footer .foot .link ul a {
 }
 
 .Loader .faces1::before,
-.Loader .faces2::before {
+.Loader .faces2::before, .Loaders .faces1::before,
+.Loaders .faces2::before {
   -webkit-transform: rotateY(90deg);
           transform: rotateY(90deg);
   -webkit-transform-origin: 0 50%;
@@ -851,12 +859,12 @@ footer .foot .link ul a {
   background-color: purple;
 }
 
-.Loader .faces2 {
+.Loader .faces2, .Loaders .faces2 {
   -webkit-transform: rotateX(180deg) translateZ(6em);
           transform: rotateX(180deg) translateZ(6em);
 }
 
-.Loader .faces2::before {
+.Loader .faces2::before, .Loaders .faces2::before {
   background-color: orange;
   -webkit-transform: rotateY(-90deg);
           transform: rotateY(-90deg);
@@ -865,7 +873,8 @@ footer .foot .link ul a {
 }
 
 .Loader .faces1::after,
-.Loader .faces2::after {
+.Loader .faces2::after, .Loaders .faces1::after,
+.Loaders .faces2::after {
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
   -webkit-transform-origin: 50% 0;
@@ -873,27 +882,27 @@ footer .foot .link ul a {
   background-color: red;
 }
 
-.Loader .faces1 {
+.Loader .faces1, .Loaders .faces1 {
   background-color: #ffa500;
 }
 
-.Loader .faces2 {
+.Loader .faces2, .Loaders .faces2 {
   background-color: #ffa90a;
 }
 
-.Loader .faces1::before {
+.Loader .faces1::before, .Loaders .faces1::before {
   background-color: #ffac14;
 }
 
-.Loader .faces2::before {
+.Loader .faces2::before, .Loaders .faces2::before {
   background-color: #ffb329;
 }
 
-.Loader .faces1::after {
+.Loader .faces1::after, .Loaders .faces1::after {
   background-color: #f59e00;
 }
 
-.Loader .faces2::after {
+.Loader .faces2::after, .Loaders .faces2::after {
   background-color: #eb9800;
 }
 

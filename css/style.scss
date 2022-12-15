@@ -117,9 +117,12 @@ main{
   }
   .box-item{
     background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #C52A41;
     padding: 20px;
     text-align: center;
     height: 100%;
+    box-shadow: 1px -4px 12px 0;
   }
   .box-item img{
   border-radius: 20px;
@@ -512,7 +515,7 @@ footer{
     width: 16px;
   }
 }
-.Loader {
+.Loader,.Loaders {
   position: fixed;
   top: 0;
   left: 0;
