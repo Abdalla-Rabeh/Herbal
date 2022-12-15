@@ -20,6 +20,11 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
+img {
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
 img:hover {
   -webkit-filter: opacity(0.5);
           filter: opacity(0.5);

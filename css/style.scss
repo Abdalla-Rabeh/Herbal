@@ -15,8 +15,11 @@ box-sizing: border-box;
 body{
     font-family: 'Cairo', sans-serif;
 }
-img:hover{
+img{
+  transition: all 1s ease-in;
+&:hover{
   filter: opacity(0.5);
+}
 }
 nav{
   background-color: #f3f4f7;
