@@ -22,7 +22,7 @@ $('nav .dropdown').hover(function(){
 });
 
 $(document).ready(function () {
-  $(".loader").fadeOut(2000);
+  $(".loader").fadeOut(200);
 });
 new WOW().init();
 var scroll_top =$('.Scroll-top')
@@ -64,6 +64,6 @@ $(".scroll_top").click(function(e){
 //     Loadings() 
 
 $(document).ready(function () {
-  $(".Loader").fadeOut(3000);
+  $(".Loader").fadeOut(200);
 });
   
