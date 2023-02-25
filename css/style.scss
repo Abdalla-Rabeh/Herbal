@@ -184,6 +184,25 @@ main{
 .carousel-control-next-icon,.carousel-control-prev-icon{
   height: 10rem !important;
 }
+video{
+  border-radius: 27px;
+width: 300px;
+height: 500px;
+margin: auto;
+display: block;
+box-shadow: 7px 8px 13px 15px #000;
+}
+.videoBox{
+  display: flex;
+justify-content: space-around;
+}
+.videoBox img{
+  width: 300px;
+  margin-top: 15px;
+  border-radius: 27px;
+
+  height: 400px;
+}
 }
 .Production{
   background-color: #f1f1f1;
@@ -816,5 +835,10 @@ i{
     font-weight: bold;
   }
 }
-
+footer{
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+}
 @import 'media'
